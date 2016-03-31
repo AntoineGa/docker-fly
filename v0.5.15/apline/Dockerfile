@@ -14,7 +14,7 @@ ENV HOVERFLY_PROXY_PORT 8500
 
 RUN set -ex \
         && apk add --no-cache --virtual .build-deps openssl \
-        && wget -q "HOVERFLY_DOWNLOAD_URL" -O hoverfly \
+        && wget -q "$HOVERFLY_DOWNLOAD_URL" -O hoverfly \
         && chmod +x hoverfly \
         && apk del .build-deps
 

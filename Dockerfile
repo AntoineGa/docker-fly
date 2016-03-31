@@ -2,7 +2,7 @@ FROM alpine:3.3
 
 MAINTAINER Tom Cunliffe "tom.cunliffe@specto.io"
 
-ARG HOVERFLY_VERSION
+ARG HOVERFLY_VERSION=v0.5.15
 
 ARG HOVERFLY_BINARY=hoverfly_linux_amd64
 
