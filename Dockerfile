@@ -2,11 +2,11 @@ FROM alpine:3.3
 
 MAINTAINER Tom Cunliffe "tom.cunliffe@specto.io"
 
-ARG HOVERFLY_VERSION=v0.5.15
+ARG HOVERFLY_VERSION
 
-ARG HOVERFLY_BINARY=hoverfly_linux_amd64
+ENV HOVERFLY_BINARY=hoverfly_"$HOVERFLY_VERSION"_linux_amd64
 
-ARG HOVERFLY_DOWNLOAD_URL_BASE=https://github.com/SpectoLabs/hoverfly/releases/download
+ENV HOVERFLY_DOWNLOAD_URL_BASE=https://github.com/SpectoLabs/hoverfly/releases/download
 
 ENV HOVERFLY_DOWNLOAD_URL "$HOVERFLY_DOWNLOAD_URL_BASE"/"$HOVERFLY_VERSION"/"$HOVERFLY_BINARY"
 
