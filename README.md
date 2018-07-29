@@ -1,6 +1,6 @@
 # This is an old repo
 
-[Hoverfly](https://github.com/SpectoLabs/hoverfly) can be found on the [Docker Hub](https://hub.docker.com/r/spectolabs/hoverfly/). If you are looking for the Dockerfile used to produce this public docker image, please look [here](https://github.com/SpectoLabs/hoverfly/blob/master/Dockerfile).
+[Hoverfly](https://github.com/SpectoLabs/hoverfly) can be found on the [Docker Hub](https://hub.docker.com/r/spectolabs/hoverfly/). If you are looking for the Dockerfile used to produce this public docker image, please look [here](https://github.com/SpectoLabs/hoverfly/blob/master/core/Dockerfile).
 
 
 
