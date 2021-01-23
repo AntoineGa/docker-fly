@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.13
 
 MAINTAINER Tom Cunliffe "tom.cunliffe@specto.io"
 
